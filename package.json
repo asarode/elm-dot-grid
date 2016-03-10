@@ -1,0 +1,24 @@
+{
+  "name": "elm-dot-grid",
+  "version": "0.1.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "dev": "webpack-dev-server --port 3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arjun Sarode <sarodearjun57@gmail.com> (http://arjun.ink/)",
+  "license": "MIT",
+  "dependencies": {
+    "css-loader": "^0.23.1",
+    "elm-webpack-loader": "^2.0.1",
+    "file-loader": "^0.8.5",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.14",
+    "webpack-dev-middleware": "^1.5.1",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
